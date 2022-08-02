@@ -8,5 +8,5 @@ String y='name';
 }
 void main(){
     Person x=Person();
-    print(x);
+    print(x.y);
 }
