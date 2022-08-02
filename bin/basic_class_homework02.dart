@@ -4,9 +4,9 @@ Create an attribute "name" in the "Person" class.
 */
 
 class Person{
-String y='name';
+String name='';
 }
 void main(){
     Person x=Person();
-    print(x.y);
+    print(x.name);
 }
