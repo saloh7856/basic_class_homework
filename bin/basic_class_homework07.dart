@@ -14,8 +14,8 @@ Person({String name='',int age=20}){
 }
 }
 void main(){
-    Person x=Person(name: 'Ali', age: 20);
-    print(x.name);
-    print(x.age);
+    Person person=Person(name: 'Ali', age: 20);
+    print(person.name);
+    print(person.age);
 }
 
