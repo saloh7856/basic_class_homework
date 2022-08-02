@@ -9,6 +9,6 @@ String name='';
 int age=20;
 }
 void main(){
-    print(person());
+    print(Person());
 }
 
