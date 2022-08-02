@@ -12,6 +12,6 @@ String name='';
 }
 
 void main(){
-    Person person = Person();
+    Person Ali = Person();
     print(x.name);
 }
