@@ -8,13 +8,13 @@ create an object named "person" whose name is "Ali", age is "25"
 class Person{
 String name='';
 int age=20;
-Person({String name='',int age=20}){
+Person(name,age){
     this.name=name;
     this.age=age;
 }
 }
 void main(){
-    Person person=Person(name: 'Ali', age: 20);
+    Person person=Person('Ali', 20);
     print(person.name);
     print(person.age);
 }
