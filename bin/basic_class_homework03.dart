@@ -6,4 +6,12 @@ Create an attribute "name" in the "Person" class.
 create an object named "person" whose name is "Ali"
 */
 
-void main() {}
+class Person{
+String name='';
+
+}
+
+void main(){
+    Person person = Person();
+    print(x.name);
+}
